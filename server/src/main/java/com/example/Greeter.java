@@ -1,5 +1,11 @@
 package com.example;
 /**
+ * <p>
+ * De plus, un Zéro a une liste d'amis Zéro. Le membre pourra ajouter ou enlever
+ * des amis à cette liste.
+ * </p>
+ * @see SDZLevel
+ * @author dworkin
  * @version 3.0
  */
 /**
@@ -16,7 +22,7 @@ public class Greeter {
   }
   public final String greet(final String someone) {
     /**
- * @version 3.0
+ * Info about this package doing something for package-info.java file.
  */
     return String.format("Hello babacar, %s!", someone);
     // le %s affiche ce qu'on a mis dans someone
