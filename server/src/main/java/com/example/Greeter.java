@@ -7,23 +7,19 @@ package com.example;
  * @see SDZLevel
  * @author dworkin
  * @version 3.0
- */
-/**
- * Info about this package doing something for package-info.java file.
+ * this is a class
  */
 public class Greeter {
       /**
- * Info about this package doing something for package-info.java file.
+ * this is a constructor
  */
   public Greeter() {
-    /**
- * Info about this package doing something for package-info.java file.
+  /**
+ * @param someone name of a person
+ *@return greeting string
  */
   }
   public final String greet(final String someone) {
-    /**
- * Info about this package doing something for package-info.java file.
- */
     return String.format("Hello babacar, %s!", someone);
     // le %s affiche ce qu'on a mis dans someone
   }
