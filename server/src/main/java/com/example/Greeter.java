@@ -1,6 +1,5 @@
 package com.example;
 /**
- * 
  * @version 3.0
  */
 /**
@@ -8,10 +7,12 @@ package com.example;
  */
 public class Greeter {  
   public Greeter() {
+    /**
+ * Info about this package doing something for package-info.java file.
+ */
   }
   public final String greet(final String someone) {
     /**
- * 
  * @version 3.0
  */
     return String.format("Hello babacar, %s!", someone);  
