@@ -1,3 +1,6 @@
+/**
+* Javadoc du package.
+*/
 package com.example;
 /**
  * <p>
